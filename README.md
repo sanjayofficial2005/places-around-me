@@ -23,7 +23,7 @@ Map.html
 <font color="blue"><b>SANJAY.M (23013084)</b></font>
 </h3>
 <center>
-    <img src="CHENGAM.jpg" usemap="#image_map">
+    <img src="" usemap="#image_map">
 <map name="image_map">
   <area alt="srishti" title="Myschool" href="school.html" coords="1343,101,51" shape="circle">
   <area alt="Chengamcourt" title="Newcourt" href="court.html" coords="1129,252,52" shape="circle">
@@ -44,7 +44,7 @@ CHENGAM
 </title>
 </head>
 <body >
-    <img src="court.jpg" alt="New court">
+    <img src="" alt="New court">
 <h1 align="center">
 <font color="blue" face="cursive">
 court
