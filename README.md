@@ -5,11 +5,14 @@ To develop a website to display details about the places around my house.
 ## Design Steps:
 
 ### Step 1:
-Write your own steps here.
+Create a new django project
 ### Step 2:
+Write the needed HTML code.
+### step 3:
+Run the django server and execute the HTML files.
 
 ## Code:
-Map.html
+Map.html:
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +26,7 @@ Map.html
 <font color="blue"><b>SANJAY.M (23013084)</b></font>
 </h3>
 <center>
-    <img src="" usemap="#image_map">
+    <img src="map.html" usemap="#image_map">
 <map name="image_map">
   <area alt="srishti" title="Myschool" href="school.html" coords="1343,101,51" shape="circle">
   <area alt="Chengamcourt" title="Newcourt" href="court.html" coords="1129,252,52" shape="circle">
@@ -35,7 +38,7 @@ Map.html
 </body>
 </html>
 
-Court.html
+Court.html:
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +47,7 @@ CHENGAM
 </title>
 </head>
 <body >
-    <img src="" alt="New court">
+    <img src="court.html" alt="New court">
 <h1 align="center">
 <font color="blue" face="cursive">
 court
@@ -61,7 +64,7 @@ court
 </body>
 </html>
 
-School.html
+School.html:
 <!DOCTYPE html>
 <html>
 <head>
@@ -87,7 +90,7 @@ MY FAV SCHOOL
 </body>
 </html>
 
-temple.html
+temple.html:
 <!DOCTYPE html>
 <html>
 <head>
@@ -113,7 +116,7 @@ MARIYAMMAN Temple
 </body>
 </html>
 
-lake.html
+lake.html:
 <!DOCTYPE html>
 <html>
 <head>
@@ -139,7 +142,7 @@ lake
 </body>
 </html>
 
-Bustand.html
+Bustand.html:
 <!DOCTYPE html>
 <html>
 <head>
@@ -181,4 +184,4 @@ NEW BUSTAND
 
 
 ## Result:
-Write your result
+The experiment places around me runned succesfully .
