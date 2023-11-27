@@ -1,4 +1,5 @@
 # Places Around Me
+
 ## AIM:
 To develop a website to display details about the places around my house.
 
@@ -6,13 +7,16 @@ To develop a website to display details about the places around my house.
 
 ### Step 1:
 Create a new django project
+
 ### Step 2:
 Write the needed HTML code.
+
 ### step 3:
 Run the django server and execute the HTML files.
 
 ## Code:
-Map.html:
+### map.html:
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,11 +30,158 @@ Map.html:
 <font color="blue"><b>SANJAY.M (23013084)</b></font>
 </h3>
 <center>
-jfoirejfrejvfe
+    <img src="CHENGAM.jpg" usemap="#image_map">
+<map name="image_map">
+  <area alt="srishti" title="Myschool" href="school.html" coords="1343,101,51" shape="circle">
+  <area alt="Chengamcourt" title="Newcourt" href="court.html" coords="1129,252,52" shape="circle">
+  <area alt="Mariyamman" title="FamousTemple" href="Temple.html" coords="819,385,46" shape="circle">
+  <area alt="Chengam" title="Newbusstand" href="bustand.html" coords="725,677,25" shape="circle">
+  <area alt="chengamlake" title="biglake" href="lake,html" coords="472,626,60" shape="circle">
+</map>
 </center>
 </body>
 </html>
+```
+
+### bustand.html:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CHENGAM
+</title>
+</head>
+<body >
+    <img src="bustand.jpg" alt="New bustand">
+<h1 align="center">
+<font color="blue" face="cursive">
+NEW BUSTAND
+</font>
+</h1>
+<p align="center">
+<font color="black" face="Comic Sans MS" size="24">
+<OL  TYPE="1" START="1">
+<LI>I missed the last bus to Chennai , so I was stranded at the bus stand overnight.<br></LI>     
+<LI>A bus station is a structure where buses stop to pick up and drop off passengers.</LI><br></LI>
+</OL>
+</font>
+</p>
+</body>
 </html>
+```
+
+### court.html :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CHENGAM
+</title>
+</head>
+<body >
+    <img src="court.jpg" alt="New court">
+<h1 align="center">
+<font color="blue" face="cursive">
+court
+</font>
+</h1>
+<p align="center">
+<font color="black" face="Comic Sans MS" size="24">
+<OL  TYPE="1" START="1">
+<LI>here is a higher court than courts of justice and that is the court of conscience. ...<br></LI>     
+<LI>Presidents come and go, but the Supreme Court goes on forever. ... <br></LI>
+</OL>
+</font>
+</p>
+</body>
+</html>
+```
+
+### lake.html :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CHENGAM
+</title>
+</head>
+<body >
+    <img src="lake.jpg" alt="lake">
+<h1 align="center">
+<font color="blue" face="cursive">
+lake
+</font>
+</h1>
+<p align="center">
+<font color="black" face="Comic Sans MS" size="24">
+<OL  TYPE="1" START="1">
+<LI>“When the mind is silent like a lake the lotus blossoms.” ...<br></LI>     
+<LI>“If the lake sees the ocean, it will want big waves!</LI><br></LI>
+</OL>
+</font>
+</p>
+</body>
+</html>
+```
+
+### school.html :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CHENGAM
+</title>
+</head>
+<body >
+    <img src="myschool.jpg" alt="My fav school">
+<h1 align="center">
+<font color="blue" face="cursive">
+MY FAV SCHOOL
+</font>
+</h1>
+<p align="center">
+<font color="black" face="Comic Sans MS" size="24">
+<OL  TYPE="1" START="1">
+<LI>"Learning is a treasure that will follow its owner everywhere".<br></LI>     
+<LI>You don't learn to walk by following rules</LI><br></LI>
+</OL>
+</font>
+</p>
+</body>
+</html>
+```
+
+### temple.html :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+CHENGAM
+</title>
+</head>
+<body >
+    <img src="Temple.jpg" alt="Famous Temple">
+<h1 align="center">
+<font color="blue" face="cursive">
+MARIYAMMAN Temple
+</font>
+</h1>
+<p align="center">
+<font color="black" face="Comic Sans MS" size="24">
+<OL  TYPE="1" START="1">
+<LI>Temples are lighthouses in the stormy seas of life, guiding us towards love, peace, and enlightenment.<br></LI>     
+<LI>Visit the temple with an open heart, and you shall receive blessings beyond measure.</LI><br></LI>
+</OL>
+</font>
+</p>
+</body>
+</html>
+```
 
 
 ## Output:
@@ -44,8 +195,5 @@ jfoirejfrejvfe
 
 
 
-
-
-
 ## Result:
-The experiment places around me runned succesfully .
+This program executed succesfully .
