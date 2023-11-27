@@ -26,14 +26,7 @@ Map.html:
 <font color="blue"><b>SANJAY.M (23013084)</b></font>
 </h3>
 <center>
-
-<map name="image_map">
-  <area alt="srishti" title="Myschool" href="school.html" coords="1343,101,51" shape="circle">
-  <area alt="Chengamcourt" title="Newcourt" href="court.html" coords="1129,252,52" shape="circle">
-  <area alt="Mariyamman" title="FamousTemple" href="Temple.html" coords="819,385,46" shape="circle">
-  <area alt="Chengam" title="Newbusstand" href="bustand.html" coords="725,677,25" shape="circle">
-  <area alt="chengamlake" title="biglake" href="lake,html" coords="472,626,60" shape="circle">
-</map>
+jfoirejfrejvfe
 </center>
 </body>
 </html>
